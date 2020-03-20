@@ -22,5 +22,5 @@
               sources:
                 - endpoint: vc-67.eco.eng.cohesity.com
               environment: "VMware"
-              # include:
-              #   - chandra-pwsh02
+              include:
+                - {{VM_NAME}}
