@@ -12,7 +12,7 @@
         vars:
           cohesity_server: 10.2.171.30
           cohesity_admin: admin
-          cohesity_password: admin
+          cohesity_password: Admin!23
           cohesity_validate_certs: False
           cohesity_protection:
               state: present
