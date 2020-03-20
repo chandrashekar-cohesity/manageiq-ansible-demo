@@ -2,7 +2,7 @@
   - hosts: localhost
     gather_facts: no
     roles:
-      - cohesity.cohesity_ansible_role
+      - ansible-role-listvars
     tasks:
       - name: Display all Environment Variables
         debug:
