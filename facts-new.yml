@@ -15,7 +15,7 @@
         var_cohesity_admin: admin
         var_cohesity_password: admin
         var_validate_certs: False
-        inventory_dir: /Users/chandrashekar.dashudu/Desktop
+        #inventory_dir: /Users/chandrashekar.dashudu/Desktop
     gather_facts: no
     roles:
       - cohesity.cohesity_ansible_role
