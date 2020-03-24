@@ -16,7 +16,7 @@
           cohesity_validate_certs: False
           cohesity_protection:
               state: present
-              job_name: protect_vcenter_demo02
+              job_name: protect_vcenter_demo03
               storage_domain: "DefaultStorageDomain"
               policy: "Bronze"
               sources:
