@@ -1,6 +1,6 @@
 #=> Create a new VMware protection job
 ---
-  - hosts: localhost
+  - hosts: all
     gather_facts: no
     roles:
       - cohesity.cohesity_ansible_role
