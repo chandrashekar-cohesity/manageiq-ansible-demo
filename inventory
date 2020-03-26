@@ -1,0 +1,7 @@
+[centos]
+10.2.159.242
+10.2.159.183
+
+[centos:vars]
+ansible_user=root
+ansible_ssh_private_key_file=/Users/chandrashekar.dashudu/.ssh/id_rsa
