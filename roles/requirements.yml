@@ -1,6 +1,5 @@
 ---
 # from galaxy
-- src: cohesity.cohesity_ansible_role
-- src: https://github.com/pemcg/ansible-role-listvars
-  version: master
-  name: ansible-role-listvars
+- src: https://github.com/cohesity/cohesity-ansible-role/
+  version: AnsibleNas
+  name: cohesity.cohesity_ansible_role
