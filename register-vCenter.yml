@@ -6,7 +6,6 @@
         var_cohesity_server: 10.2.171.30
         var_cohesity_admin: admin
         var_validate_certs: False
-        var_vcenter_server: 10.2.145.20
         var_vcenter_username: administrator
     gather_facts: no
     roles:

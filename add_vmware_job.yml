@@ -12,15 +12,15 @@
         vars:
           cohesity_server: 10.2.171.30
           cohesity_admin: admin
-          cohesity_password: {{ cohesity_password  }}
+          cohesity_password: "{{ cohesity_password  }}"
           cohesity_validate_certs: False
           cohesity_protection:
               state: present
-              job_name: {{ job_name }}
+              job_name: "{{ job_name }}"
               storage_domain: "DefaultStorageDomain"
-              policy: {{ policy_name }}
+              policy: "{{ policy_name }}"
               sources:
-                - endpoint: {{ endpoint }}
+                - endpoint: "{{ endpoint }}"
               environment: "VMware"
               include:
                 - "{{ vm_name }}"
